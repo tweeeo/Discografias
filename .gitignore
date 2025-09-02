@@ -1,0 +1,41 @@
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dependencias
+/node_modules
+
+# Archivos de compilación/temporales
+/dist
+/build
+/tmp
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Archivos de paquetes
+*.zip
+*.tar.gz
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos generados por el usuario (ej. descargas)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Archivos de caché
+.cache/
