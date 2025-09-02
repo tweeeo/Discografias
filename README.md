@@ -32,7 +32,7 @@ Este proyecto es una aplicación web sencilla que permite a los usuarios generar
 
 ## Cómo Usar
 
-1.  Abre `index.html` en tu navegador web.
+1.  Abre `https://tweeeo.github.io/Discografias/` en tu navegador web.
 2.  Haz clic en "Subir Imagen" para seleccionar una imagen desde tu dispositivo.
 3.  Arrastra y redimensiona la imagen dentro del área de la plantilla si es necesario.
 4.  Introduce el nombre del artista en el campo de texto.
