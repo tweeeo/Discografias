@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discografías</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Generador de Portada</h1>
+        <p>Sube tu foto, ajústala dentro de la plantilla y descárgala.</p>
+    </header>
+
+    <main>
+        <div id="canvas-container">
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+
+        <div class="controls">
+            <button id="upload-button" class="custom-upload">Subir Imagen</button>
+            <input type="file" id="upload" accept="image/*">
+            <button id="download">Descargar</button>
+            <button id="reset-button">Restablecer</button>
+        </div>
+
+        <div class="text-controls-container">
+            <input type="text" id="text-input" placeholder="Escribe tu artista aquí...">
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year"></span> <a href="https://genius.com/albums/Genius-en-espanol/Discografias" target="_blank" rel="noopener noreferrer">Discografías</a> | <a href="https://genius.com/artists/Genius-en-espanol" target="_blank" rel="noopener noreferrer">Genius en Español</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
